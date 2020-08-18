@@ -6,47 +6,82 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="style.css">
+    <link href="//cdn-images.mailchimp.com/embedcode/slim-10_7.css" rel="stylesheet" type="text/css">
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
           integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 </head>
-<body>
+<body class="bg-light">
 
 <header>
 <div class="header-image">
-    <img src="Assets/velt-logo.jpg" height="80px" alt="Velt Logo">
 </div>
 </header>
 
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <a class="navbar-brand" href="#">Velt</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNavDropdown">
-        <ul class="navbar-nav">
-            <li class="nav-item active">
-                <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">Features</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">Pricing</a>
-            </li>
-            <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    Dropdown link
-                </a>
-                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                    <a class="dropdown-item" href="#">Action</a>
-                    <a class="dropdown-item" href="#">Another action</a>
-                    <a class="dropdown-item" href="#">Something else here</a>
-                </div>
-            </li>
-        </ul>
+<div class="container">
+    <div class="quote">
+        Velt Brasschaat verenigt een groep mensen met een belangrijk engagement. Dit engagement kan zeer uiteenlopend zijn maar heeft altijd wat te maken met een ecologisch gedachtengoed.
     </div>
-</nav>
+</div>
+
+<div class="container">
+    <h2 class="mt-2">Het Bestuur</h2>
+    <div class="card-deck mt-4 text-center">
+        <div class="card border-0 bg-light">
+            <div class="card-body">
+                <img class="card-img-top rounded-circle w-50 mx-auto" src="Assets/Vera.jpg" alt="Vera">
+                <h4 class="card-title mt-3">Vera Asselbergs</h4>
+                <p class="card-text">Secretariaat, contactadres, ledenadministratie</p>
+            </div>
+        </div>
+        <div class="card border-0 bg-light">
+            <div class="card-body">
+                <img class="card-img-top rounded-circle mx-auto w-50" src="Assets/felix.jpg" alt="Felix">
+                <h4 class="card-title mt-3">Felix Braat</h4>
+                <p class="card-text">Penningmeester, werkend lid Velt Nationaal, lid provinciale vergaderingen</p>
+            </div>
+        </div>
+        <div class="card border-0 bg-light">
+            <div class="card-body">
+                <img class="card-img-top rounded-circle mx-auto w-50" src="Assets/hilde.jpg" alt="Hilde">
+                <h4 class="card-title">Hilde Buysse</h4>
+                <p class="card-text">Afgevaardigde duurzaamheidsraad Brasschaat en contactpersoon voor de gemeente
+            </div>
+        </div>
+    </div>
+
+</div>
+<div class="container mt-4">
+    <h2>Lid worden</h2>
+    <form class="form-inline">
+        <label class="sr-only" for="inlineFormInputName2">Name</label>
+        <input type="text" class="form-control mb-2 mr-sm-2" id="inlineFormInputName2" placeholder="Naam Voornaam">
+
+        <label class="sr-only" for="inlineFormInputGroupUsername2">Username</label>
+        <div class="input-group mb-2 mr-sm-2">
+            <div class="input-group-prepend">
+                <div class="input-group-text">@</div>
+            </div>
+            <input type="text" class="form-control" id="inlineFormInputGroupUsername2" placeholder="E-mail">
+        </div>
+        <button type="submit" class="btn btn-success mb-2">Lid Worden!</button>
+    </form>
+
+</div>
+
+<div class="container">
+<div id="mc_embed_signup">
+    <form action="https://gmail.us17.list-manage.com/subscribe/post?u=987468c865e3e031a79d24c87&amp;id=ce87c427e1" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+        <div id="mc_embed_signup_scroll">
+            <label for="mce-EMAIL">Nieuwsbrief aanvragen</label>
+            <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="e-mailadres" required>
+            <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+            <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_987468c865e3e031a79d24c87_ce87c427e1" tabindex="-1" value=""></div>
+            <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
+        </div>
+    </form>
+</div>
+</div>
 <!-- Optional JavaScript -->
 <!-- jQuery first, then Popper.js, then Bootstrap JS -->
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"

@@ -5,6 +5,17 @@
   background-size: cover;
 }
 
+.main-title {
+  color: whitesmoke;
+  font-size: 70px;
+  text-shadow: 2px 2px 4px #000000;
+  font-variant: small-caps;
+}
+
+h2 {
+  text-shadow: 1px 1px 1px #000000;
+}
+
 .velt-nationaal {
   float: right;
 }
@@ -21,7 +32,6 @@
 }
 
 #mc_embed_signup {
-  background: #F8F9FA;
   clear: left;
   font: 14px Helvetica, Arial, sans-serif;
   width: 100%;
@@ -39,7 +49,7 @@ body {
 .month {
   padding: 70px 25px;
   width: 100%;
-  background: #0D7515;
+  background: #0d7515;
   text-align: center;
 }
 
@@ -50,7 +60,7 @@ body {
 }
 
 .month ul li {
-  color: white;
+  color: whitesmoke;
   font-size: 20px;
   text-transform: uppercase;
   letter-spacing: 3px;
@@ -102,7 +112,7 @@ body {
 /* Highlight the "current" day */
 .days li .active {
   padding: 5px;
-  background: #0D7515;
+  background: #0d7515;
   color: white !important;
 }
 
